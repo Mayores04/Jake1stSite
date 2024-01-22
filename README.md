@@ -71,7 +71,7 @@
                     const enteredEmailPassword = password2Input.value;
 
                     // Check if the name and password are filled
-                    if (enteredName === '' || enteredPassword === '') {
+                     if (enteredName === '' || enteredPassword === '' || enteredName!== enteredName || enteredPassword !== enteredPassword) {
                         alert('Please fill in the name and password first.');
                         return;
                     }
