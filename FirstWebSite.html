@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -39,7 +39,7 @@
                         const enteredPassword = passwordInput.value;
 
                         // Check if the entered name and password are correct
-                        if (enteredName === 'JAKE J. MAYORES' || enteredName === 'Angelika Bianca L. Upao' && enteredPassword === 'J@k3m@y0res' || enteredPassword === 'Angelika30') {
+                        if ((enteredName === 'JAKE J. MAYORES' || enteredName === 'Angelika Bianca L. Upao') && (enteredPassword === 'J@k3m@y0res' || enteredPassword === 'Angelika30')) {
                             verificationText.style.display = 'block';
                         } else {
                             alert('Please enter the correct name and password.');
@@ -54,7 +54,7 @@
             <!-- Your existing password section remains unchanged -->
 
             <label for="password2">Email:</label>
-            <input type="password" id="password2">
+            <input type="text" id="password2">
             <button onclick="revealText()">Login</button>
 
             <p id="protectedText" style="display: none;">Email has been verified.<br>You can now access Jake Account on Face Book. <br>https://www.facebook.com/jakejmayores</p>
